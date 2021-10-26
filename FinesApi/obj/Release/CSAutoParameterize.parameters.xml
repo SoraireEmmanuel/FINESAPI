@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="PebaContext-Web.config Connection String" description="PebaContext Cadena de conexión que usa la aplicación en web.config para obtener acceso a la base de datos." defaultValue="Server=tcp:pebaserver.database.windows.net,1433;Initial Catalog=fines;Persist Security Info=False;User ID=Administrador;Password=Kaydan89;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Emma_\\source\\repos\\FinesApi\\FinesApi\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='PebaContext']/@connectionString" />
+  </parameter>
+</parameters>
